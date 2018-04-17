@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00C3AE6D20868B1E00DEC80E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE6A20868B1D00DEC80E /* Alamofire.framework */; };
+		00C3AE6E20868B1E00DEC80E /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE6B20868B1E00DEC80E /* Moya.framework */; };
+		00C3AE6F20868B1E00DEC80E /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE6C20868B1E00DEC80E /* Result.framework */; };
+		00C3AE7320868B2D00DEC80E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7020868B2D00DEC80E /* Alamofire.framework */; };
+		00C3AE7420868B2D00DEC80E /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7120868B2D00DEC80E /* Moya.framework */; };
+		00C3AE7520868B2D00DEC80E /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7220868B2D00DEC80E /* Result.framework */; };
+		00C3AE7920868B3D00DEC80E /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7620868B3D00DEC80E /* Moya.framework */; };
+		00C3AE7A20868B3D00DEC80E /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7720868B3D00DEC80E /* Result.framework */; };
+		00C3AE7B20868B3D00DEC80E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7820868B3D00DEC80E /* Alamofire.framework */; };
+		00C3AE7F20868B4A00DEC80E /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7C20868B4A00DEC80E /* Result.framework */; };
+		00C3AE8020868B4A00DEC80E /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7D20868B4A00DEC80E /* Moya.framework */; };
+		00C3AE8120868B4A00DEC80E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7E20868B4A00DEC80E /* Alamofire.framework */; };
 		A102BD481F02355A000C6B38 /* LingoHubSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD3E1F02355A000C6B38 /* LingoHubSync.framework */; };
 		A102BD661F023573000C6B38 /* LingoHubSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD5D1F023573000C6B38 /* LingoHubSync.framework */; };
 		A102BD821F023582000C6B38 /* LingoHubSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD791F023582000C6B38 /* LingoHubSync.framework */; };
@@ -91,6 +103,18 @@
 /* Begin PBXFileReference section */
 		000E616F2086425500C0638C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0085926E2046FD1B00AB529F /* beak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beak.swift; sourceTree = "<group>"; };
+		00C3AE6A20868B1D00DEC80E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		00C3AE6B20868B1E00DEC80E /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		00C3AE6C20868B1E00DEC80E /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		00C3AE7020868B2D00DEC80E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		00C3AE7120868B2D00DEC80E /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/Mac/Moya.framework; sourceTree = "<group>"; };
+		00C3AE7220868B2D00DEC80E /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
+		00C3AE7620868B3D00DEC80E /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/tvOS/Moya.framework; sourceTree = "<group>"; };
+		00C3AE7720868B3D00DEC80E /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/tvOS/Result.framework; sourceTree = "<group>"; };
+		00C3AE7820868B3D00DEC80E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
+		00C3AE7C20868B4A00DEC80E /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/watchOS/Result.framework; sourceTree = "<group>"; };
+		00C3AE7D20868B4A00DEC80E /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/watchOS/Moya.framework; sourceTree = "<group>"; };
+		00C3AE7E20868B4A00DEC80E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/watchOS/Alamofire.framework; sourceTree = "<group>"; };
 		A102BD3E1F02355A000C6B38 /* LingoHubSync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LingoHubSync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BD471F02355A000C6B38 /* LingoHubSync-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LingoHubSync-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BD5D1F023573000C6B38 /* LingoHubSync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LingoHubSync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +146,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C3AE6F20868B1E00DEC80E /* Result.framework in Frameworks */,
+				00C3AE6E20868B1E00DEC80E /* Moya.framework in Frameworks */,
+				00C3AE6D20868B1E00DEC80E /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +164,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C3AE7520868B2D00DEC80E /* Result.framework in Frameworks */,
+				00C3AE7420868B2D00DEC80E /* Moya.framework in Frameworks */,
+				00C3AE7320868B2D00DEC80E /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +182,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C3AE7920868B3D00DEC80E /* Moya.framework in Frameworks */,
+				00C3AE7B20868B3D00DEC80E /* Alamofire.framework in Frameworks */,
+				00C3AE7A20868B3D00DEC80E /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +200,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C3AE8020868B4A00DEC80E /* Moya.framework in Frameworks */,
+				00C3AE8120868B4A00DEC80E /* Alamofire.framework in Frameworks */,
+				00C3AE7F20868B4A00DEC80E /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +349,9 @@
 		A102BDC11F023BFC000C6B38 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				00C3AE6A20868B1D00DEC80E /* Alamofire.framework */,
+				00C3AE6B20868B1E00DEC80E /* Moya.framework */,
+				00C3AE6C20868B1E00DEC80E /* Result.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -320,6 +359,9 @@
 		A102BDC21F023C00000C6B38 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				00C3AE7020868B2D00DEC80E /* Alamofire.framework */,
+				00C3AE7120868B2D00DEC80E /* Moya.framework */,
+				00C3AE7220868B2D00DEC80E /* Result.framework */,
 			);
 			name = macOS;
 			sourceTree = "<group>";
@@ -327,6 +369,9 @@
 		A102BDC31F023C08000C6B38 /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
+				00C3AE7E20868B4A00DEC80E /* Alamofire.framework */,
+				00C3AE7D20868B4A00DEC80E /* Moya.framework */,
+				00C3AE7C20868B4A00DEC80E /* Result.framework */,
 			);
 			name = watchOS;
 			sourceTree = "<group>";
@@ -334,6 +379,9 @@
 		A102BDC41F023C0F000C6B38 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
+				00C3AE7820868B3D00DEC80E /* Alamofire.framework */,
+				00C3AE7620868B3D00DEC80E /* Moya.framework */,
+				00C3AE7720868B3D00DEC80E /* Result.framework */,
 			);
 			name = tvOS;
 			sourceTree = "<group>";
@@ -918,6 +966,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -937,6 +989,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -987,6 +1043,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -1005,6 +1065,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -1056,6 +1120,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1077,6 +1145,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1129,6 +1201,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1151,6 +1227,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PROVISIONING_PROFILE_SPECIFIER = "";
