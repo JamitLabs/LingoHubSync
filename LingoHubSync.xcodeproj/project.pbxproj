@@ -19,6 +19,12 @@
 		00C3AE8520868CF500DEC80E /* HandySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE8420868CF500DEC80E /* HandySwift.framework */; };
 		00C3AE8720868D0100DEC80E /* HandySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE8620868D0100DEC80E /* HandySwift.framework */; };
 		00C3AE8920868D0D00DEC80E /* HandySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE8820868D0D00DEC80E /* HandySwift.framework */; };
+		00C3AE8B20868E7400DEC80E /* LingoHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3AE8A20868E7400DEC80E /* LingoHubAPI.swift */; };
+		00C3AE8C20868E7400DEC80E /* LingoHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3AE8A20868E7400DEC80E /* LingoHubAPI.swift */; };
+		00C3AE8D20868E7400DEC80E /* LingoHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3AE8A20868E7400DEC80E /* LingoHubAPI.swift */; };
+		00C3AE8F2086920C00DEC80E /* ImportSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3AE8E2086920C00DEC80E /* ImportSettings.swift */; };
+		00C3AE902086920C00DEC80E /* ImportSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3AE8E2086920C00DEC80E /* ImportSettings.swift */; };
+		00C3AE912086920C00DEC80E /* ImportSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3AE8E2086920C00DEC80E /* ImportSettings.swift */; };
 		A102BD481F02355A000C6B38 /* LingoHubSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD3E1F02355A000C6B38 /* LingoHubSync.framework */; };
 		A102BD661F023573000C6B38 /* LingoHubSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD5D1F023573000C6B38 /* LingoHubSync.framework */; };
 		A102BD821F023582000C6B38 /* LingoHubSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD791F023582000C6B38 /* LingoHubSync.framework */; };
@@ -114,6 +120,8 @@
 		00C3AE8420868CF500DEC80E /* HandySwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandySwift.framework; path = Carthage/Build/iOS/HandySwift.framework; sourceTree = "<group>"; };
 		00C3AE8620868D0100DEC80E /* HandySwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandySwift.framework; path = Carthage/Build/Mac/HandySwift.framework; sourceTree = "<group>"; };
 		00C3AE8820868D0D00DEC80E /* HandySwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandySwift.framework; path = Carthage/Build/tvOS/HandySwift.framework; sourceTree = "<group>"; };
+		00C3AE8A20868E7400DEC80E /* LingoHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingoHubAPI.swift; sourceTree = "<group>"; };
+		00C3AE8E2086920C00DEC80E /* ImportSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportSettings.swift; sourceTree = "<group>"; };
 		A102BD3E1F02355A000C6B38 /* LingoHubSync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LingoHubSync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BD471F02355A000C6B38 /* LingoHubSync-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LingoHubSync-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BD5D1F023573000C6B38 /* LingoHubSync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LingoHubSync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -245,6 +253,8 @@
 		A102BDA01F02387A000C6B38 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				00C3AE8A20868E7400DEC80E /* LingoHubAPI.swift */,
+				00C3AE8E2086920C00DEC80E /* ImportSettings.swift */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -551,6 +561,7 @@
 				TargetAttributes = {
 					A102BD3D1F02355A000C6B38 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 					A102BD461F02355A000C6B38 = {
@@ -559,12 +570,14 @@
 					};
 					A102BD5C1F023573000C6B38 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0930;
 					};
 					A102BD641F023573000C6B38 = {
 						CreatedOnToolsVersion = 9.0;
 					};
 					A102BD781F023582000C6B38 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 					A102BD801F023582000C6B38 = {
@@ -689,6 +702,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C3AE8B20868E7400DEC80E /* LingoHubAPI.swift in Sources */,
+				00C3AE8F2086920C00DEC80E /* ImportSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,6 +719,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C3AE8C20868E7400DEC80E /* LingoHubAPI.swift in Sources */,
+				00C3AE902086920C00DEC80E /* ImportSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,6 +736,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C3AE8D20868E7400DEC80E /* LingoHubAPI.swift in Sources */,
+				00C3AE912086920C00DEC80E /* ImportSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -881,9 +900,11 @@
 		A102BD531F02355A000C6B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -897,6 +918,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -905,9 +927,11 @@
 		A102BD541F02355A000C6B38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -929,6 +953,7 @@
 		A102BD561F02355A000C6B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DHP3ZYQ2N;
@@ -945,6 +970,7 @@
 		A102BD571F02355A000C6B38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DHP3ZYQ2N;
@@ -961,8 +987,10 @@
 		A102BD6F1F023573000C6B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -976,6 +1004,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -983,8 +1012,10 @@
 		A102BD701F023573000C6B38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1005,6 +1036,7 @@
 		A102BD721F023573000C6B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8DHP3ZYQ2N;
@@ -1021,6 +1053,7 @@
 		A102BD731F023573000C6B38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8DHP3ZYQ2N;
@@ -1037,9 +1070,11 @@
 		A102BD8B1F023582000C6B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1053,6 +1088,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.0;
@@ -1062,9 +1098,11 @@
 		A102BD8C1F023582000C6B38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1087,6 +1125,7 @@
 		A102BD8E1F023582000C6B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1102,6 +1141,7 @@
 		A102BD8F1F023582000C6B38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
