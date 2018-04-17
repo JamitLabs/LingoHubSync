@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "LingoHubSync"
   s.version      = "0.1.0"
-  s.summary      = "TODO: write short framework description"
+  s.summary      = "A client for syncing translation files with LingoHub."
 
   s.description  = <<-DESC
     This project encapsulates preconfigured framework targets, Swiftlint configuration, multiple dependency manager

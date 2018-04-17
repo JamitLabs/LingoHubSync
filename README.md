@@ -28,7 +28,7 @@
 
 # LingoHubSync
 
-TODO: Summarize the project goals here.
+A client for syncing translation files with LingoHub.
 
 ## Installation
 
@@ -37,7 +37,7 @@ TODO: Summarize the project goals here.
 Place the following line to your Cartfile:
 
 ``` Swift
-github "JamitLabs/LingoHubSync" ~> 1.0
+github "JamitLabs/LingoHubSync" ~> 0.1
 ```
 
 Now run `carthage update`. Then drag & drop the LingoHubSync.framework in the Carthage/Build folder to your project. Now you can `import LingoHubSync` in each class you want to use its features. Refer to the [Carthage README](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application) for detailed / updated instructions.
@@ -52,7 +52,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'MyAppTarget' do
-    pod 'LingoHubSync', '~> 1.0'
+    pod 'LingoHubSync', '~> 0.1'
 end
 ```
 
