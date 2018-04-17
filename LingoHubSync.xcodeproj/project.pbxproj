@@ -16,9 +16,9 @@
 		00C3AE7920868B3D00DEC80E /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7620868B3D00DEC80E /* Moya.framework */; };
 		00C3AE7A20868B3D00DEC80E /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7720868B3D00DEC80E /* Result.framework */; };
 		00C3AE7B20868B3D00DEC80E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7820868B3D00DEC80E /* Alamofire.framework */; };
-		00C3AE7F20868B4A00DEC80E /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7C20868B4A00DEC80E /* Result.framework */; };
-		00C3AE8020868B4A00DEC80E /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7D20868B4A00DEC80E /* Moya.framework */; };
-		00C3AE8120868B4A00DEC80E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE7E20868B4A00DEC80E /* Alamofire.framework */; };
+		00C3AE8520868CF500DEC80E /* HandySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE8420868CF500DEC80E /* HandySwift.framework */; };
+		00C3AE8720868D0100DEC80E /* HandySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE8620868D0100DEC80E /* HandySwift.framework */; };
+		00C3AE8920868D0D00DEC80E /* HandySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3AE8820868D0D00DEC80E /* HandySwift.framework */; };
 		A102BD481F02355A000C6B38 /* LingoHubSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD3E1F02355A000C6B38 /* LingoHubSync.framework */; };
 		A102BD661F023573000C6B38 /* LingoHubSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD5D1F023573000C6B38 /* LingoHubSync.framework */; };
 		A102BD821F023582000C6B38 /* LingoHubSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD791F023582000C6B38 /* LingoHubSync.framework */; };
@@ -34,7 +34,6 @@
 		A102BDFF1F023E32000C6B38 /* LingoHubSync.h in Headers */ = {isa = PBXBuildFile; fileRef = A102BDFE1F023E13000C6B38 /* LingoHubSync.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A102BE001F023E33000C6B38 /* LingoHubSync.h in Headers */ = {isa = PBXBuildFile; fileRef = A102BDFE1F023E13000C6B38 /* LingoHubSync.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A102BE011F023E33000C6B38 /* LingoHubSync.h in Headers */ = {isa = PBXBuildFile; fileRef = A102BDFE1F023E13000C6B38 /* LingoHubSync.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A102BE021F023E34000C6B38 /* LingoHubSync.h in Headers */ = {isa = PBXBuildFile; fileRef = A102BDFE1F023E13000C6B38 /* LingoHubSync.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,16 +111,15 @@
 		00C3AE7620868B3D00DEC80E /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/tvOS/Moya.framework; sourceTree = "<group>"; };
 		00C3AE7720868B3D00DEC80E /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/tvOS/Result.framework; sourceTree = "<group>"; };
 		00C3AE7820868B3D00DEC80E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
-		00C3AE7C20868B4A00DEC80E /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/watchOS/Result.framework; sourceTree = "<group>"; };
-		00C3AE7D20868B4A00DEC80E /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/watchOS/Moya.framework; sourceTree = "<group>"; };
-		00C3AE7E20868B4A00DEC80E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/watchOS/Alamofire.framework; sourceTree = "<group>"; };
+		00C3AE8420868CF500DEC80E /* HandySwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandySwift.framework; path = Carthage/Build/iOS/HandySwift.framework; sourceTree = "<group>"; };
+		00C3AE8620868D0100DEC80E /* HandySwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandySwift.framework; path = Carthage/Build/Mac/HandySwift.framework; sourceTree = "<group>"; };
+		00C3AE8820868D0D00DEC80E /* HandySwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandySwift.framework; path = Carthage/Build/tvOS/HandySwift.framework; sourceTree = "<group>"; };
 		A102BD3E1F02355A000C6B38 /* LingoHubSync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LingoHubSync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BD471F02355A000C6B38 /* LingoHubSync-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LingoHubSync-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BD5D1F023573000C6B38 /* LingoHubSync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LingoHubSync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BD651F023573000C6B38 /* LingoHubSync-macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LingoHubSync-macOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BD791F023582000C6B38 /* LingoHubSync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LingoHubSync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BD811F023582000C6B38 /* LingoHubSync-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LingoHubSync-tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A102BD951F02358E000C6B38 /* LingoHubSync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LingoHubSync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BDA31F02387A000C6B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A102BDB01F0238BD000C6B38 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		A102BDB21F0238BD000C6B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -147,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00C3AE6F20868B1E00DEC80E /* Result.framework in Frameworks */,
+				00C3AE8520868CF500DEC80E /* HandySwift.framework in Frameworks */,
 				00C3AE6E20868B1E00DEC80E /* Moya.framework in Frameworks */,
 				00C3AE6D20868B1E00DEC80E /* Alamofire.framework in Frameworks */,
 			);
@@ -165,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00C3AE7520868B2D00DEC80E /* Result.framework in Frameworks */,
+				00C3AE8720868D0100DEC80E /* HandySwift.framework in Frameworks */,
 				00C3AE7420868B2D00DEC80E /* Moya.framework in Frameworks */,
 				00C3AE7320868B2D00DEC80E /* Alamofire.framework in Frameworks */,
 			);
@@ -183,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00C3AE7920868B3D00DEC80E /* Moya.framework in Frameworks */,
+				00C3AE8920868D0D00DEC80E /* HandySwift.framework in Frameworks */,
 				00C3AE7B20868B3D00DEC80E /* Alamofire.framework in Frameworks */,
 				00C3AE7A20868B3D00DEC80E /* Result.framework in Frameworks */,
 			);
@@ -193,16 +194,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A102BD821F023582000C6B38 /* LingoHubSync.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A102BD911F02358E000C6B38 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00C3AE8020868B4A00DEC80E /* Moya.framework in Frameworks */,
-				00C3AE8120868B4A00DEC80E /* Alamofire.framework in Frameworks */,
-				00C3AE7F20868B4A00DEC80E /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +220,6 @@
 				A102BD651F023573000C6B38 /* LingoHubSync-macOS-Tests.xctest */,
 				A102BD791F023582000C6B38 /* LingoHubSync.framework */,
 				A102BD811F023582000C6B38 /* LingoHubSync-tvOS-Tests.xctest */,
-				A102BD951F02358E000C6B38 /* LingoHubSync.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -331,7 +321,6 @@
 				A102BDC11F023BFC000C6B38 /* iOS */,
 				A102BDC21F023C00000C6B38 /* macOS */,
 				A102BDC41F023C0F000C6B38 /* tvOS */,
-				A102BDC31F023C08000C6B38 /* watchOS */,
 			);
 			name = Framework;
 			sourceTree = "<group>";
@@ -350,6 +339,7 @@
 			isa = PBXGroup;
 			children = (
 				00C3AE6A20868B1D00DEC80E /* Alamofire.framework */,
+				00C3AE8420868CF500DEC80E /* HandySwift.framework */,
 				00C3AE6B20868B1E00DEC80E /* Moya.framework */,
 				00C3AE6C20868B1E00DEC80E /* Result.framework */,
 			);
@@ -360,26 +350,18 @@
 			isa = PBXGroup;
 			children = (
 				00C3AE7020868B2D00DEC80E /* Alamofire.framework */,
+				00C3AE8620868D0100DEC80E /* HandySwift.framework */,
 				00C3AE7120868B2D00DEC80E /* Moya.framework */,
 				00C3AE7220868B2D00DEC80E /* Result.framework */,
 			);
 			name = macOS;
 			sourceTree = "<group>";
 		};
-		A102BDC31F023C08000C6B38 /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				00C3AE7E20868B4A00DEC80E /* Alamofire.framework */,
-				00C3AE7D20868B4A00DEC80E /* Moya.framework */,
-				00C3AE7C20868B4A00DEC80E /* Result.framework */,
-			);
-			name = watchOS;
-			sourceTree = "<group>";
-		};
 		A102BDC41F023C0F000C6B38 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
 				00C3AE7820868B3D00DEC80E /* Alamofire.framework */,
+				00C3AE8820868D0D00DEC80E /* HandySwift.framework */,
 				00C3AE7620868B3D00DEC80E /* Moya.framework */,
 				00C3AE7720868B3D00DEC80E /* Result.framework */,
 			);
@@ -437,14 +419,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A102BE011F023E33000C6B38 /* LingoHubSync.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A102BD921F02358E000C6B38 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A102BE021F023E34000C6B38 /* LingoHubSync.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,25 +539,6 @@
 			productReference = A102BD811F023582000C6B38 /* LingoHubSync-tvOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A102BD941F02358E000C6B38 /* LingoHubSync watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A102BD9A1F02358E000C6B38 /* Build configuration list for PBXNativeTarget "LingoHubSync watchOS" */;
-			buildPhases = (
-				A102BD901F02358E000C6B38 /* Sources */,
-				A102BD911F02358E000C6B38 /* Frameworks */,
-				A102BD921F02358E000C6B38 /* Headers */,
-				A102BD931F02358E000C6B38 /* Resources */,
-				A102BDD91F023D80000C6B38 /* SwiftLint */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "LingoHubSync watchOS";
-			productName = "LingoHubSync watchOS";
-			productReference = A102BD951F02358E000C6B38 /* LingoHubSync.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -615,10 +570,6 @@
 					A102BD801F023582000C6B38 = {
 						CreatedOnToolsVersion = 9.0;
 					};
-					A102BD941F02358E000C6B38 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = A102BD381F02355A000C6B38 /* Build configuration list for PBXProject "LingoHubSync" */;
@@ -639,7 +590,6 @@
 				A102BD641F023573000C6B38 /* LingoHubSync macOS Tests */,
 				A102BD781F023582000C6B38 /* LingoHubSync tvOS */,
 				A102BD801F023582000C6B38 /* LingoHubSync tvOS Tests */,
-				A102BD941F02358E000C6B38 /* LingoHubSync watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -687,13 +637,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A102BD931F02358E000C6B38 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -726,20 +669,6 @@
 			shellScript = "if [ \"${CONFIGURATION}\" = \"Debug\" ]; then\n    if which swiftlint > /dev/null; then\n        swiftlint\n    else\n        echo \"SwiftLint not installed, download it from https://github.com/realm/SwiftLint\"\n    fi\nfi";
 		};
 		A102BDD81F023D6C000C6B38 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ \"${CONFIGURATION}\" = \"Debug\" ]; then\n    if which swiftlint > /dev/null; then\n        swiftlint\n    else\n        echo \"SwiftLint not installed, download it from https://github.com/realm/SwiftLint\"\n    fi\nfi";
-		};
-		A102BDD91F023D80000C6B38 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -798,13 +727,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A102BDB51F0238E9000C6B38 /* ExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A102BD901F02358E000C6B38 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -969,6 +891,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -992,6 +915,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1190,58 +1114,6 @@
 			};
 			name = Release;
 		};
-		A102BD9B1F02358E000C6B38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Debug;
-		};
-		A102BD9C1F02358E000C6B38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1304,15 +1176,6 @@
 			buildConfigurations = (
 				A102BD8E1F023582000C6B38 /* Debug */,
 				A102BD8F1F023582000C6B38 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A102BD9A1F02358E000C6B38 /* Build configuration list for PBXNativeTarget "LingoHubSync watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A102BD9B1F02358E000C6B38 /* Debug */,
-				A102BD9C1F02358E000C6B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

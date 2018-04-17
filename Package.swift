@@ -10,15 +10,15 @@ let package = Package(
         )
     ],
     dependencies: [
-//        .package(url: "https://github.com/Flinesoft/HandySwift.git", .upToNextMajor(from: "2.5.0")),
-//        .package(url: "https://github.com/Flinesoft/HandyUIKit.git", .upToNextMajor(from: "1.6.0"))
+        .package(url: "https://github.com/Moya/Moya.git", .upToNextMajor(from: "11.0.2")),
+        .package(url: "https://github.com/Flinesoft/HandySwift.git", .upToNextMajor(from: "2.5.0"))
     ],
     targets: [
         .target(
             name: "LingoHubSync",
             dependencies: [
-//                "HandySwift",
-//                "HandyUIKit"
+                "Moya",
+                "HandySwift"
             ],
             path: "Sources",
             exclude: [

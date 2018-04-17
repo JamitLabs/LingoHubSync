@@ -11,7 +11,7 @@ import Regex
 import PathKit
 import Rainbow
 
-let supportedPlatforms = ["iOS", "tvOS", "macOS", "watchOS"]
+let supportedPlatforms = ["iOS", "tvOS", "macOS"]
 
 // MARK: - Helpers
 private func deleteFile(_ fileName: String) throws {

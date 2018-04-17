@@ -1,4 +1,5 @@
 github "Alamofire/Alamofire" "4.7.2"
+github "Flinesoft/HandySwift" "2.5.0"
 github "Moya/Moya" "994a5ffe8ec33c32af405ed8e480d34782e91e7b"
 github "Quick/Nimble" "v7.1.0"
 github "Quick/Quick" "v1.2.0"
