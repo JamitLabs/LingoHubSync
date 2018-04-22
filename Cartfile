@@ -2,4 +2,4 @@
 github "Flinesoft/HandySwift" ~> 2.5
 
 # Network abstraction layer written in Swift.
-github "Moya/Moya" "carthage/moya/11.x"
+github "Moya/Moya" ~> 11.0
